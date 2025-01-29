@@ -15,8 +15,6 @@ function App() {
       <About image={blogData.image} about={blogData.about}/>
       <ArticleList posts={blogData.posts}/>
       <MinutesToRead />
-      You're on your own from here! Follow the deliverables; test things out in
-      the browser as you write your code; and good luck!
     </div>
   );
 }

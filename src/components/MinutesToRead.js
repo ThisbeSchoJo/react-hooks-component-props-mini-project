@@ -15,12 +15,12 @@ function MinutesToRead({minutes}) {
         }
     }
 
-    return (
-        <p>{minutes ? getReadingTime(minutes) : "No reading time available"}</p>
-    );
     // return (
-    //     <p>{minutes ? `${minutes} minute read` : "No reading time available"}</p>
-    // )
+    //     <p>{minutes ? getReadingTime(minutes) : "No reading time available"}</p>
+    // );
+    return (
+        <p>{minutes ? `${minutes} minute read` : "No reading time available"}</p>
+    )
 // write a ternary
 // if minutes <30 :
 //      for each 5 mins, display 1 coffee cup emoji
